@@ -25,7 +25,7 @@ const Header = () => {
           >
             <Camera className="w-8 h-8 text-purple-500" />
             <span className="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
-              Gouhtam Clicks
+              Goutham Clicks
             </span>
           </motion.div>
 
