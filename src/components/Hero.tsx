@@ -13,7 +13,7 @@ const Hero = () => {
     'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80',
     'https://images.unsplash.com/photo-1554048612-b6a482bc67e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80',
     'https://images.unsplash.com/photo-1516724562728-afc824a36e84?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80',
-    'https://images.unsplash.com/photo-1571702595587-0e42d9c46e24?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80'
+    'https://media.istockphoto.com/id/843408508/photo/photography-camera-lens-concept.jpg?s=612x612&w=0&k=20&c=-tm5TKrPDMakrT1vcOE-4Rlyj-iBVdzKuX4viFkd7Vo='
   ];
 
   useEffect(() => {
@@ -33,7 +33,7 @@ const Hero = () => {
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: `url(${image})` }}
           >
-            <div className="absolute inset-0 bg-black/60" />
+            <div className="absolute inset-0 bg-black/35" />
           </div>
         )
       ))}

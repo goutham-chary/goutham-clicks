@@ -5,7 +5,7 @@ import { Mail, Phone, MapPin, Instagram, Facebook, Twitter } from 'lucide-react'
 const Contact = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
-    threshold: 0.27,
+    threshold: 0.0015,
   });
 
   const contactInfo = [
@@ -71,7 +71,7 @@ const Contact = () => {
         <div className="flex flex-col-reverse lg:flex-row lg:items-start gap-12">
           {/* Contact Details */}
           <motion.div
-            initial={{ opacity: 0, x: -20 }}
+            initial={{ opacity: 0, x: -30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="lg:w-1/2 space-y-8"
@@ -112,9 +112,9 @@ const Contact = () => {
 
           {/* Contact Form */}
           <motion.div
-            initial={{ opacity: 0, x: 20 }}
+            initial={{ opacity: 0, x: 30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.8, delay: 0.4 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
             className="lg:w-1/2 bg-gray-800/50 backdrop-blur-sm p-8 rounded-lg"
           >
             <form className="space-y-6">
